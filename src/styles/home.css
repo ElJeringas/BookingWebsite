@@ -1,0 +1,57 @@
+/* In your home.css file */
+.carousel-slide {
+    position: relative;
+  }
+
+.carousel-container {
+    max-width: 500%; /* Ensure the container fits within its parent */
+  }
+  
+  .carousel-container img {
+    height: 30rem; /* Make images fill the container's height */
+    width: auto; /* Automatically adjust width to maintain aspect ratio */
+  }
+.carousel .slider .control-dots {
+    display: none; /* Hide the navigation dots */
+  }
+
+  .carousel-text {
+    position: absolute;
+    top: 50%;
+    right: 0; /* Position to the right */
+    transform: translateY(-50%);
+    padding: 20px;
+    text-align: right;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .carousel-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-text button {
+    background-color: #7fc142;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+/*     border-radius: 5px; */
+    cursor: pointer;
+  }
+
+
+  .carousel-text .secondaty-btn {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 9px 19px;
+/*     border-radius: 5px; */
+    cursor: pointer;
+  }
+

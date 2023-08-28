@@ -1,0 +1,59 @@
+.counter{
+    background-color: #2d3748;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    color: white;
+}
+.counter .grid{
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    place-items: center;
+    padding-top: 30px;
+}
+.counter h1{
+    font-size: 20px;
+}
+.counter hr{
+    width: 75%;
+    margin: 18px auto;
+    background: #7fc142;
+    height: 2px;
+    border: none;
+    /* margin-bottom: 15px; */
+}
+.icon{
+    margin-top: 15px;
+
+}
+
+@media  only screen and (max-width:768px) {
+    .counter{
+        background-color: #2d3748;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+        width: 100%;
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+
+    }
+    .counter .grid{
+        grid-template-columns: repeat(2, 3fr);
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .counter .grid .centered-item {
+        margin-top: 10px;
+        grid-column: 1 / -1; /* Span all columns */
+        text-align: center;
+      }
+
+}

@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 20px;
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.book{
+    padding: 40px 0;
+    background-color:#282834 ;
+    color: white;
+}
+
+.book h1{
+    font-size: 28px;
+}
+
+.book h1 span{
+    color: #7fc142;
+}
+.book input{
+    padding:20px;
+}
+.book input:nth-last-child(1){
+    background: #7fc142;
+    color: white;
+}

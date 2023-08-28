@@ -1,0 +1,48 @@
+footer{
+    position: relative;
+    background-color: #2d3748;
+    color: #b6b7b9;
+    min-height: 10vh;
+
+}
+
+.container-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding: 20px;
+}
+.box {
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+footer .p{
+    color: #b6b7b9;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+footer .icon i{
+    margin: 20px 20px 20px 0;
+    color: #b6b7b9;
+}
+
+footer h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer li{
+    margin-bottom:20px;
+}
+
+footer i{
+    color: #7fc142;
+    margin: 20px 0;
+    margin-right: 20px;
+}
+
+footer label{
+    margin: 20px 0;
+}
