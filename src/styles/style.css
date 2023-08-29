@@ -95,38 +95,8 @@ header button{
     margin: 13px 40px;
 }
 
-header .navlinks span{
-    display: none;
-}
-
-/* @media  only screen and (max-width:768px) {
-    header ul{
-        position: absolute;
-        top: 100px;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: #009f7f;
-        overflow: hidden;
-        transition: max-height 0.5s;
-        text-align: center;
-        z-index: 9;
-    }
-
-    header ul li{
-        display: block;
-    }
-
-    header li a{
-        color: black;
-    }
-    header .navlinks span{
-        color: black;
-        display: block;
-        cursor: pointer;
-        line-height: 10vh;
-        font-size: 25px;
-    }
-}
- */
-
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }

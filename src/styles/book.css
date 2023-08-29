@@ -25,6 +25,7 @@ input{
 .book input{
     padding:20px;
 }
+
 .book input:nth-last-child(1){
     background: #7fc142;
     color: white;
