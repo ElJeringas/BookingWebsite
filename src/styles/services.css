@@ -2,7 +2,7 @@
     background-color: #2d3748;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: 100%;
     width: 100%;
     color: white;
 }
@@ -28,12 +28,41 @@
 
 }
 
-@media  only screen and (max-width:768px) {
+@media  only screen and (max-width:770px) {
     .counter{
         background-color: #2d3748;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 90vh;
+        height: 100%;
+        width: 100%;
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+
+    }
+    .counter .grid{
+        grid-template-columns: repeat(2, 3fr);
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .counter .grid .centered-item {
+        margin-top: 10px;
+        grid-column: 1 / -1; /* Span all columns */
+        text-align: center;
+      }
+}
+
+@media  only screen and (max-width:600px) {
+    .counter{
+        background-color: #2d3748;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
         width: 100%;
         color: white;
         align-items: center;
@@ -57,3 +86,4 @@
       }
 
 }
+

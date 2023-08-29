@@ -14,7 +14,7 @@ function Footer() {
     <div className='container-grid'>
       <div className='box'>
         {/* <img src={tripadvisor} alt=''/> */}
-        <p>Cillum sunt proident duis aute minim duis mollit ipsum anim officia. Esse ad nostrud reprehenderit ex. Cupidatat cupidatat ut mollit eiusmod anim elit consectetur cillum sunt. Non Lorem in ullamco anim elit cillum sit labore labore nulla ad. Aute ut incididunt est id ipsum nulla. Aute anim aliquip tempor ut. Incididunt dolore magna tempor anim occaecat tempor adipisicing ut.</p>
+        <p>Cillum sunt proident duis aute minim duis mollit ipsum anim officia. Esse ad nostrud reprehenderit ex. Cupidatat cupidatat ut mollit eiusmod anim elit consectetur cillum sunt.</p>
         <div className='icon'>
           <i className='fa fa-facebook-f'><FacebookIcon/></i>
           <i className='fa fa-instagram'><InstagramIcon/></i>
