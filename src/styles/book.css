@@ -29,3 +29,30 @@ input{
     background: #7fc142;
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    .home{
+        color: #fff;
+        height: 50vh;
+    }
+    .home img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .left, .right{
+        width: 100%;
+    }
+
+    .book h1{
+        margin-bottom: 20px;
+    }
+
+    .container .flex, .book .flex_space{
+        flex-direction: column;
+    }
+
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
