@@ -5,12 +5,16 @@ import '../styles/style.css'
 import { green } from '@mui/material/colors';
 import { useState } from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
+import { useTranslation } from 'react-i18next';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Rooms','Gallery'];
 
 function HotelBar(props) {
-
+const [t,i18n] = useTranslation('global');
+const handleChangeLanguage = (lang)=>{
+  i18n.changeLanguage(lang)
+}
   const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -24,16 +28,6 @@ function HotelBar(props) {
         Casa Bolivar
       </Typography>
       <Divider/>
-{/* 
-          {navItems.map((item)=>(
-            <div className='navlinks' key={item}>
-        <ul id='menulist'>
-            <il key={item}>
-            <a href='# ${`item`}'>{item}</a>
-            </il>
-            </ul>
-      </div>
-          ))} */}
 
     </Box>
   );
@@ -45,15 +39,7 @@ function HotelBar(props) {
       <CssBaseline />
       <AppBar component="nav" position="relative" sx={{background:'white'}}>
         <Toolbar>
-{/*           <IconButton
-            color="black"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
-          >
-            <MenuIcon />
-          </IconButton>*/}
+
           <Typography variant='h7' component='div' sx={{flexGrow:1, color:'black', fontFamily:['Poppins', 'Raleway', 'sans-serif',]}}
           >
             Casa Bolivar
@@ -64,6 +50,8 @@ function HotelBar(props) {
                 {item}
               </Button>
             ))}
+            <button onClick={()=>handleChangeLanguage("es")}>ES</button>
+            <button onClick={()=>handleChangeLanguage("en")}>EN</button>
           </Box>
         </Toolbar>
       </AppBar>
@@ -86,39 +74,6 @@ function HotelBar(props) {
       </nav>
     </Box>
   );
-/*   return (
-  
-    <AppBar position="relative" sx={{background:'white'}}>
-    <Toolbar>
-      <Typography variant='h7' component='div' sx={{flexGrow:1, color:'black', fontFamily:['Poppins', 'Raleway', 'sans-serif',]}}>
-        Casa Bolivar
-      </Typography>
-      <div className='navlinks'>
-        <ul id='menulist'>
-          <li>
-            <a href='#home'>Home</a>
-          </li>
-          <li>
-            <a href='#about'>about</a>
-          </li>
-          <li>
-            <a href='#rooms'>rooms</a>
-          </li>
-          <li>
-            <a href='#contact'>gallery</a>
-          </li>
-          <li>
-            <Button variant='contained' sx={{background:green[500], "&:hover":{background:green[700]}}} >Book now</Button>
-          </li>
-        </ul>
-      </div>
-
-    </Toolbar>
-    </AppBar> 
-
-
-  )
-  */
 }
 
 export default HotelBar

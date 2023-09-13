@@ -1,13 +1,34 @@
 {
     "header": {
-        "message" : "Welcome to Casa Bolivar"
+        "message" : "Bienvenidos a Casa Bolivar"
     },
     "home":{
-        "body":"Spend Your Holiday",
-        "read":"Read More",
-        "contact":"Contact Us"
+        "body":"Pasa tus Vacaciones",
+        "description":"Mira nuestras promociones",
+        "read":"Leer Mas",
+        "contact":"Contactar"
     },
-    "Book":{
-        
+    "book":{
+        "highlight":"Reserva",
+        "spot":"Tu habitacion",
+        "adults_input":"Adultos",
+        "children_input":"Niños",
+        "room_input":"Nro. Cuartos",
+        "button":"Ver disponibilidad"
+    },
+    "about":{
+        "head":"Bienvenidos",
+        "title":"Casa Bolivar",
+        "line_one": "Un Refugio Eterno en el Corazón de Loja, Ecuador",
+        "paragraph_1":"Ubicada entre las pintorescas calles de Loja, Casa Bolivar te invita a retroceder en el tiempo y experimentar el encanto y la elegancia de una era pasada. Alojada en una mansión colonial bellamente preservada, Casa Bolivar es más que un hotel; es un cautivador viaje a través de la historia y una puerta de entrada al rico tapiz cultural de esta encantadora ciudad.",
+        "line_two":"Un Vistazo a la Historia:",
+        "paragraph_2":"La historia de Casa Bolivar comienza siglos atrás, cuando fue originalmente construida como una grandiosa residencia colonial. Hoy, su arquitectura impecable y detalles meticulosamente preservados transportan a los huéspedes a una época en la que la influencia colonial española dejó una huella indeleble en Loja. Cada rincón de esta joya histórica emana un aura de belleza atemporal, brindando una oportunidad única para conectar con el pasado colonial de Ecuador.",
+        "line_three":"Alojamientos Elegantes:",
+        "paragraph_3":"Nuestras habitaciones y suites cuidadosamente seleccionadas combinan perfectamente el encanto de antaño con las comodidades modernas. Cada habitación en Casa Bolivar ofrece un refugio acogedor para los viajeros, con muebles antiguos, textiles lujosos y todas las comodidades que necesitas para una estancia confortable. Ya elijas una habitación con vista a las bulliciosas calles o una que se abre a nuestro sereno patio, encontrarás un oasis perfecto dentro de Casa Bolivar.",
+        "line_four" : "Patio Cautivador:",
+        "paragraph_4" : "El corazón de Casa Bolivar es sin duda su encantador patio. Con su exuberante vegetación, fuentes que murmuran y áreas de descanso acogedoras, ofrece un escape sereno del ajetreo y el bullicio de la ciudad. Es el lugar ideal para disfrutar de un desayuno tranquilo, relajarse con un libro o simplemente empaparse de la atmósfera de esta obra maestra colonial.",
+        "line_five":"Bienvenidos a Casa Bolivar, donde la Historia y la Hospitalidad se Unen!",
+        "button_a":"Conoce Más",
+        "button_b" : "Mostrar Menos"
     }
 }
