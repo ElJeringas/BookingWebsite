@@ -13,7 +13,7 @@ function Register() {
             <input type='date' placeholder='Departure Date'></input>
             <input type='number' placeholder='Adults'></input>
             <input type='number' placeholder='Children'></input>
-            <input type='number' placeholder='Pets'></input>
+            <input type='number' placeholder='Rooms'></input>
             <input type='submit' name='' value='Check Availability'></input>
           </form>
         </div>

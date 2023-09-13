@@ -10,6 +10,9 @@ import Gallery from "./pages/Gallery";
 import Footer from "./pages/Footer";
 import Legal from "./pages/Legal";
 function App() {
+
+  
+  
   return (
     <div className="App">
       <BrowserRouter>

@@ -1,0 +1,13 @@
+{
+    "header": {
+        "message" : "Welcome to Casa Bolivar"
+    },
+    "home":{
+        "body":"Spend Your Holiday",
+        "read":"Read More",
+        "contact":"Contact Us"
+    },
+    "Book":{
+        
+    }
+}

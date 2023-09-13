@@ -6,6 +6,11 @@
 .top{
     margin-top: 60px;
 }
+.left{flex: 2;}
+.right{
+    flex: 1;
+    max-width: 500px;
+}
 .mtop{
     margin-top: 40px;
 }
@@ -30,6 +35,29 @@
 .about .left{
     margin-top: 30px;
 }
+
+.text-container{
+    margin-right: 5rem;
+    max-height: 300px;
+    position: inherit;
+    text-align: justify;
+    text-decoration: none;
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.3s ease; /* Smooth transition for show/hide */
+}
+  
+  /* Style for the show-more class when the button is clicked */
+  .text-container.show-more {
+    max-height: none;
+    margin-bottom: 15px;
+    transition: max-height 0.3s ease;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes the full height of its parent */
+  }
 
 @media  only screen and (max-width:770px) {
     .left .right{

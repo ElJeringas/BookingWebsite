@@ -16,17 +16,52 @@ footer{
     flex: 1;
     padding: 0 10px;
   }
+  .rounded-map {
+    width: 100%;
+    max-width: 200px; /* Adjust the maximum width as needed */
+    border-radius: 10px; /* Add rounded corners */
+    overflow: hidden; /* Hide any overflowing content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    margin: 5px 20px 0 0;
+}
   
+  /* Style for the embedded iframe */
+  .rounded-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove the iframe border */
+  }
+
 footer .p{
     color: #b6b7b9;
     font-size: 10px;
     line-height: 25px;
 }
 
-footer .icon i{
-    margin: 20px 20px 20px 0;
-    color: #b6b7b9;
+footer .icon{
+    display: flex;
+
 }
+footer .icon i{
+    margin: 25px 25px 25px 0;
+    color: #b6b7b9;
+
+}
+footer .icon i:hover{
+    color: #fafafa; /* Example color on hover */
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Preserve the default text color */
+  }
+  a:hover {
+    /* Add your hover styles here, such as changing text color */
+    color: #fafafa; /* Example color on hover */
+    transition: 0.5s;
+
+  }
 
 footer h2{
     color: white;
@@ -45,6 +80,9 @@ footer i{
 
 footer label{
     margin: 20px 0;
+}
+.box li{
+    margin-bottom: 5px;
 }
 
 /* @media  only screen and (max-width:700px) {

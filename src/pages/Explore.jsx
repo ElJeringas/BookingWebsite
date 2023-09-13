@@ -6,8 +6,9 @@ function Explore() {
     <section className='rooms'>
         <div className='container top'>
             <div className='heading'>
-                <h2>Our Rooms</h2>
-                <p>Sit sint reprehenderit exercitation eiusmod officia fugiat sint nisi.</p>
+                <h1>Rooms</h1>
+                <h2>Find your Place</h2>
+                <p>Experience the perfect blend of timeless elegance and modern comfort in our meticulously designed rooms.</p><br/>
             </div>
             <Rooms/>
         </div>

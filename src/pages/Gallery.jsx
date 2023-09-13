@@ -9,7 +9,7 @@ function Gallery() {
             <div className='heading'>
                 <h1>Photos</h1>
                 <h2>Our Gallery</h2>
-                <p>Sunt ullamco ad minim pariatur cupidatat veniam occaecat veniam. Dolor ut deserunt labore laboris anim ut aliqua. Pariatur anim amet pariatur occaecat do in exercitation.</p>
+                <p>Discover our gallery showcasing the perfect blend of colonial elegance, comfortable rooms, expansive spaces, and the delectable offerings of our on-site restaurant.</p>
             </div>
             <div className='content mtop'>
                 <Collection/>
