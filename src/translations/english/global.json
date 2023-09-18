@@ -30,5 +30,35 @@
         "line_five":"Bienvenidos a Casa Bolivar - Where History and Hospitality Unite!",
         "button_a":"More About Us",
         "button_b" : "Show Less"
+    },
+    "services":{
+        "cafe" : "Restaurant",
+        "hotel" : "Hotel",
+        "photo" : "Photo Sessions",
+        "rings" : "Weddings",
+        "more" : "More..."
+    },
+    "rooms": {
+        "title" : "Rooms",
+        "subtitle" : "Find Your Place",
+        "description": "Experience the perfect blend of timeless elegance and modern comfort in our meticulously designed rooms."
+    },
+    "Card1": {
+        "title" : "Room 1",
+        "description" : "Some room description",
+        "button" : "Book Now",
+        "price" : "Per Night"
+    },
+    "Card2": {
+        "title" : "Room 2",
+        "description" : "Some room description",
+        "button" : "Book Now",
+        "price" : "Per Night"
+    },
+    "Card3": {
+        "title" : "Room 3",
+        "description" : "Some room description",
+        "button" : "Book Now",
+        "price" : "Per Night"
     }
 }

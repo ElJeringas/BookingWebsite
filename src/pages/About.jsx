@@ -30,7 +30,7 @@ function About() {
                 <h4>{t(`about.line_two`)}</h4><br/>
                 <p>{t(`about.paragraph_2`)}</p><br/>
                 <h4>{t(`about.line_three`)}</h4><br/>
-                <p>O{t(`about.paragraph_3`)}</p><br/>
+                <p>{t(`about.paragraph_3`)}</p><br/>
                 <h4>{t(`about.line_four`)}</h4><br/>
                 <p>{t(`about.paragraph_4`)}</p><br/>
                 <h4>{t(`about.line_five`)}</h4>

@@ -100,3 +100,30 @@ header button{
     align-items: center;
     gap: 20px;
   }
+
+
+/* You can also style the language list within the container */
+.language-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position:absolute;
+  z-index: 1;
+  right: 10px;
+  background: #fff; /* Add background color as needed */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow as needed */
+}
+
+.language-list li {
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #000;
+}
+.language-list li:hover {
+    background:#fafafa
+  }
+
+/* Additional styling for open/close animation if desired */
+.language-list.closed {
+  display: none;
+}

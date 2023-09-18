@@ -3,7 +3,7 @@ import '../styles/legal.css'
 function Legal() {
   return (
     <div className='legal'>
-      <p className='legal'> Copyright  (c)  Copyright Holder All Rights Reserved.</p>
+      <p> Copyright  (c)  Copyright Holder All Rights Reserved.</p>
     </div>
   )
 }

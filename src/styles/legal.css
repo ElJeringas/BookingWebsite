@@ -1,8 +1,18 @@
 .legal {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 5px 0;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+  position:static; /* Change to absolute positioning */
+  bottom: 0;
+  width: 100%;
+  height: auto; /* Remove fixed height */
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+  .legal {
+      padding: 10px 0; /* Increase padding for better visibility on smaller screens */
+      font-size: 12px; /* Adjust font size for smaller screens */
   }
+}
