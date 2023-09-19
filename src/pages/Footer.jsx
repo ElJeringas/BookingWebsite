@@ -6,9 +6,11 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { useTranslation } from 'react-i18next';
 import '../styles/footer.css';
 
 function Footer() {
+  const {t} = useTranslation('global')
   return (
     <footer>
       <div className='container-grid'>
@@ -25,9 +27,7 @@ function Footer() {
           ></iframe>
         </div>
         <div className='box'>
-        <h2>Follow us</h2>
-        
-          <p>Feel free to reach out to us through the following contact options:</p>
+        <h2>{t(`footer.title1`)}</h2>        
           <div className='icon'>
             <a href="https://www.facebook.com/casabolivarhotelmuseo" target="_blank" rel="noopener noreferrer">
               <i className='fa fa-facebook-f'><FacebookIcon/></i>
@@ -44,7 +44,7 @@ function Footer() {
           </div>
         </div>
         <div className='box'>
-          <h2>External Links</h2>
+          <h2>{t(`footer.title2`)}</h2>
           <ul>
             <li><a href="https://www.tripadvisor.es/Hotel_Review-g644406-d23806734-Reviews-Casa_Bolivar_Hotel_Museo-Loja_Loja_Province.html" target="_blank" rel="noopener noreferrer">Tripadvisor</a></li>
             <li><a href="https://www.hoteles.com/ho2874823648/casa-bolivar-hotel-museo-loja-ecuador/" target="_blank" rel="noopener noreferrer">Hoteles.com</a></li>
@@ -52,7 +52,7 @@ function Footer() {
           </ul>
         </div>
         <div className='box'>
-          <h2>Contact Us</h2>
+          <h2>{t(`footer.title3`)}</h2>
           <i className='fa fa-location-dot'><LocationOnIcon/></i>
           <label>Bolívar y Colón Esquina, Loja 110101 Ecuador<br/></label>
           <i className='fa fa-phone'><LocalPhoneIcon/></i>

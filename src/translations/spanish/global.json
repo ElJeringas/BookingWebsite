@@ -60,5 +60,18 @@
         "description" : "descripcion habitacion",
         "button" : "Reservar",
         "price" : "Por Noche"
+    },
+    "gallery" : {
+        "title" : "Fotos",
+        "subtitle" : "Galeria",
+        "description" : "Descubra nuestra galería que muestra la combinación perfecta de elegancia colonial, cómodas habitaciones, amplios espacios y las deliciosas ofertas de nuestro restaurante en el lugar."
+    },
+    "footer" : {
+        "title1" : "Siguenos",
+        "title2" : "Links",
+        "title3" : "Contactos"
+    },
+    "copyright" : {
+        "description" : "Copyright (c) Todos los derechos reservados."
     }
 }

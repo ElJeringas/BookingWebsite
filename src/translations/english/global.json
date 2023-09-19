@@ -1,37 +1,37 @@
 {
-    "header": {
+    "header" : {
         "message" : "Welcome to Casa Bolivar"
     },
-    "home":{
-        "body":"Spend Your Holiday",
-        "description":"See our promotions",
-        "read":"Read More",
-        "contact":"Contact Us"
+    "home" : {
+        "body" : "Spend Your Holiday",
+        "description" : "See our promotions",
+        "read" : "Read More",
+        "contact" : "Contact Us"
     },
-    "book":{
-        "highlight":"Book",
-        "spot":"Your Rooms",
-        "adults_input":"Adults",
-        "children_input":"Children",
-        "room_input":"Rooms",
-        "button":"Check Availability"
+    "book" : {
+        "highlight" : "Book",
+        "spot" : "Your Rooms",
+        "adults_input" : "Adults",
+        "children_input" : "Children",
+        "room_input" : "Rooms",
+        "button" : "Check Availability"
     },
-    "about":{
-        "head":"Welcome",
-        "title":"Casa Bolivar",
-        "line_one": "A Timeless Retreat in the Heart of Loja, Ecuador",
-        "paragraph_1":"Nestled amidst the picturesque streets of Loja, Casa Bolivar invites you to step back in time and experience the charm and elegance of a bygone era. Housed within a beautifully preserved colonial mansion, Casa Bolivar is more than just a hotel; it's a captivating journey through history and agateway to the rich cultural tapestry of this enchanting city",
-        "line_two":"A Glimpse into History:",
-        "paragraph_2":"Casa Bolivar's story begins centuries ago, when it was originally built as a grand colonial residence. Today, its immaculate architecture and meticulously preserved details transport guests to a time when Spanish colonial influence left an indelible mark on Loja. Each corner of this historic gem exudes an aura of timeless beauty, providing a unique opportunity to connect with Ecuador's colonial past.",
-        "line_three":"Elegant Accommodations:",
-        "paragraph_3":"Our carefully curated guest rooms and suites seamlessly blend the charm of yesteryears with modern comforts. Every room at Casa Bolivar offers a cozy haven for travelers, featuring antique furnishings, luxurious textiles, and all the amenities you need for a comfortable stay. Whether you choose a room with a view of the bustling streets or one that opens onto our serene courtyard, you'll find a perfect oasis within Casa Bolivar.",
+    "about" : {
+        "head" : "Welcome",
+        "title" : "Casa Bolivar",
+        "line_one" : "A Timeless Retreat in the Heart of Loja, Ecuador",
+        "paragraph_1" : "Nestled amidst the picturesque streets of Loja, Casa Bolivar invites you to step back in time and experience the charm and elegance of a bygone era. Housed within a beautifully preserved colonial mansion, Casa Bolivar is more than just a hotel; it's a captivating journey through history and agateway to the rich cultural tapestry of this enchanting city",
+        "line_two" : "A Glimpse into History:",
+        "paragraph_2" : "Casa Bolivar's story begins centuries ago, when it was originally built as a grand colonial residence. Today, its immaculate architecture and meticulously preserved details transport guests to a time when Spanish colonial influence left an indelible mark on Loja. Each corner of this historic gem exudes an aura of timeless beauty, providing a unique opportunity to connect with Ecuador's colonial past.",
+        "line_three" : "Elegant Accommodations:",
+        "paragraph_3" : "Our carefully curated guest rooms and suites seamlessly blend the charm of yesteryears with modern comforts. Every room at Casa Bolivar offers a cozy haven for travelers, featuring antique furnishings, luxurious textiles, and all the amenities you need for a comfortable stay. Whether you choose a room with a view of the bustling streets or one that opens onto our serene courtyard, you'll find a perfect oasis within Casa Bolivar.",
         "line_four" : "Captivating Courtyard:",
         "paragraph_4" : "The heart of Casa Bolivar is undoubtedly its enchanting courtyard. With its lush greenery, trickling fountains, and inviting seating areas, it provides a serene escape from the city's hustle and bustle. It's the ideal spot to enjoy a leisurely breakfast, unwind with a book, or simply soak in the ambiance of this colonial masterpiece.",
-        "line_five":"Bienvenidos a Casa Bolivar - Where History and Hospitality Unite!",
-        "button_a":"More About Us",
+        "line_five" : "Bienvenidos a Casa Bolivar - Where History and Hospitality Unite!",
+        "button_a" : "More About Us",
         "button_b" : "Show Less"
     },
-    "services":{
+    "services" : {
         "cafe" : "Restaurant",
         "hotel" : "Hotel",
         "photo" : "Photo Sessions",
@@ -60,5 +60,18 @@
         "description" : "Some room description",
         "button" : "Book Now",
         "price" : "Per Night"
+    },
+    "gallery" : {
+        "title" : "Photos",
+        "subtitle" : "Our Gallery",
+        "description" : "Discover our gallery showcasing the perfect blend of colonial elegance, comfortable rooms, expansive spaces, and the delectable offerings of our on-site restaurant."
+    },
+    "footer" : {
+        "title1" : "Follow Us",
+        "title2" : "Links",
+        "title3" : "Contact Us"
+    },
+    "copyright" : {
+        "description" : "Copyright (c) Copyright Holder All Rights Reserved."
     }
 }
